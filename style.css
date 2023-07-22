@@ -19,24 +19,34 @@ html, body{
 }
 #content{
     background-color: rgba(0, 0, 0, 0.212);
-    height: 400px;
     width: 400px;
     margin: auto;
     border-radius: 50px;
+    padding-bottom: 1px;
 }
 #top{
-    margin-top: 20px;
     width: auto;
     padding-top: 15px;
     padding-bottom: 40px;
     font-size: 16px;
     border-bottom: #7c7c7c27 solid 1px;
 }
-#bottom{
-    margin-top: 100px;
+#sekcja{
+    margin-top: 20px;
+    font-size: 30px;
+}
+#sekcjanowa{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-top: #7c7c7c27 solid 1px;
+    padding: 20px;
+    text-align: left;
 }
 h1{
     font-weight: 100;
     font-size: 48px;
     margin-bottom: 10px;
+}
+a:visited{
+    color: #fff;
 }
