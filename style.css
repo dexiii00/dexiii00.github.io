@@ -25,11 +25,11 @@ html, body{
     background-color: rgba(253, 253, 253, 0.562);
     width: 400px;
     border-radius: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
     margin: auto;
-    -webkit-box-shadow: 0px 0px 58px -28px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 0px 0px 58px -28px rgba(0, 0, 0, 1);
-    box-shadow: 0px 0px 58px -28px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 58px -28px rgb(136, 136, 136);
+    -moz-box-shadow: 0px 0px 58px -28px rgb(136, 136, 136);
+    box-shadow: 0px 0px 58px -28px rgb(136, 136, 136);
 }
 #top{
     width: auto;
