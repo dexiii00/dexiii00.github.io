@@ -64,6 +64,7 @@ body{
     border-left: #fff solid 1px;
     border-right: #222 solid 1px;
     border-bottom: #222 solid 1px;
+    margin-right: 8px;
     cursor: default;
 }
 .toolbarbutton:active{
