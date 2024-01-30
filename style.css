@@ -1,5 +1,5 @@
 body{
-    background-color: #027a7a;
+    background-color: #cfcfcf;
     font-family: 'W95FA', sans-serif;                                               
 }
 @import url('https://fonts.cdnfonts.com/css/w95fa');
@@ -10,34 +10,35 @@ body{
 #window{
     width: 600px;
     height: 800px;
-    background-color: #c3c3c3;
-    border-top: #edeef3 solid 2px;
-    border-left: #edeef3 solid 2px;
-    border-right: #222 solid 2px;
-    border-bottom: #222 solid 2px;
+    background-color: #f4f4f0;
+    border-left: 3px solid #1230af;
+    border-top: 3px solid #1062c7;
+    border-right: 3px solid #1230af;
+    border-bottom: 3px solid #1230af;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 5px;
 }
 #titlebar{
-    background-color: #00007a;
+    background: rgb(9,50,139);
+    background: linear-gradient(0deg, rgba(9,50,139,1) 0%, rgba(0,104,244,1) 17%, rgba(1,85,235,1) 29%, rgba(1,85,235,1) 85%, rgba(37,140,250,1) 100%); 
     color: #fff;
-    margin: 2px;
-    padding: 1px;
+    margin-bottom: 2px;
+    padding-top: 5px;
     padding-left: 5px;
-    padding-bottom: 3px;
-    height: 16px;
+    padding-bottom: 1px;
+    height: 23px;
 }
 #titlebarbutton{
-    background-color: #c3c3c3;
-    border-top: #edeef3 solid 2px;
-    border-left: #edeef3 solid 2px;
-    border-right: #222 solid 2px;
-    border-bottom: #222 solid 2px;
+    background: rgb(171,87,39);
+    background: linear-gradient(320deg, rgba(171,87,39,1) 0%, rgba(214,73,25,1) 30%, rgba(222,103,76,1) 82%, rgba(240,180,154,1) 100%); 
+    border: 1px solid #fff;
+    border-radius: 5px;
     float: right;
-    width: 12px;
-    height: 12px;
+    width: 22px;
+    height: 22px;
     color: #000;
     font-size: 13px;
     text-align: center;
@@ -49,14 +50,33 @@ body{
     border-left: #222 solid 2px;
     border-top: #222 solid 2px;
 }
+#toolbar{
+    height: 16px;
+    background-color: #f4f4f0;
+    margin-left: 5px;
+}
+.toolbarbutton{
+    float: left;
+    margin-right: 10px;
+}
+.toolbarbutton:hover{
+    border-top: #fff solid 1px;
+    border-left: #fff solid 1px;
+    border-right: #222 solid 1px;
+    border-bottom: #222 solid 1px;
+    cursor: default;
+}
+.toolbarbutton:active{
+    border-bottom: #fff solid 1px;
+    border-right: #fff solid 1px;
+    border-left: #222 solid 1px;
+    border-top: #222 solid 1px;
+}
 #content{
     background-color: #fff;
     width: auto;
-    height: 755px;
+    height: 735px;
     padding: 4px;
-    margin: 5px;
-    border-bottom: #edeef3 solid 2px;
-    border-right: #edeef3 solid 2px;
-    border-left: #222 solid 2px;
-    border-top: #222 solid 2px;
+    margin-top: 5px;
+    border-top: #c9d4e0 solid 2px;
 }
