@@ -82,3 +82,8 @@ body{
     margin-top: 5px;
     border-top: #c9d4e0 solid 2px;
 }
+@media only screen and (max-height: 799px) {
+    body{
+        scale: 0.9;
+    }
+}
