@@ -1,36 +1,70 @@
 body{
-    background-color: #000;
-    color: #fff;
+    background-color: #ddd;
+    color: #555;
+}
+#container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    width: 800px;
+    height: 125px;
+    background: rgb(215,236,255);
+    background: linear-gradient(0deg, rgba(215,236,255,1) 0%, rgba(184,220,253,1) 17%, rgba(184,220,253,1) 50%, rgba(215,236,255,1) 100%); 
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: 2px solid #b2c1c7;
+    font-size: 100px;
+    text-align: center;
+    color: #555;
+}
+#headerreflect{
+    width: 790px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #ffffff36;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
 }
-p{
-    display: inline;
+#title{
+    border-radius: 20px 20px 0px 0px;
+    width: 768px;
+    padding: 15px;
+    background: rgb(204,204,204);
+    background: linear-gradient(0deg, rgb(230, 230, 230) 0%, rgb(204, 204, 204) 50%, rgb(230, 230, 230) 100%);
+    border: 1px solid #aaa;
+    color: #555;
 }
-#d3{
-    animation-name: dot;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 1s;
+#sidebar{
+    float: left;
+    width: 178px;
+    height: 480px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-top: none;
+    border-bottom: none;
+    background: rgb(233,233,233);
+    background: linear-gradient(0deg, rgba(233,233,233,1) 10%, rgba(220,220,220,1) 17%, rgba(220,220,220,1) 19%, rgba(202,202,202,1) 46%, rgba(220,220,220,1) 84%, rgba(233,233,233,1) 87%, rgba(233,233,233,1) 100%);   
 }
-#d2{
-    animation-name: dot;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 0.5s;
+#content{
+    float: left;
+    width: 579px;
+    height: 480px;
+    background-color: #eee;
+    padding: 10px;
+    border-right: 1px solid #aaa;
 }
-#d1{
-    animation-name: dot;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+h1{
+    font-weight: normal;
+    margin: 0;
 }
-@keyframes dot{
-    0% {color:  #fff;}
-    100% {color: #000;}
+#footer{
+    border-radius: 0px 0px 20px 20px;
+    width: 768px;
+    padding: 15px;
+    background: rgb(204,204,204);
+    background: linear-gradient(0deg, rgb(230, 230, 230) 0%, rgb(204, 204, 204) 50%, rgb(230, 230, 230) 100%);
+    border: 1px solid #aaa;
+    color: #555;
 }
